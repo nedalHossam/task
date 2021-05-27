@@ -1,27 +1,32 @@
 # Task
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+fork this project first
+ use angular to generate reacive form in the signup component
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ 
+## 1
+use angular to generate reacive form in the signup component.
+ the form should get the folowing information from the user.
+ name , nationality , email , password ,password confirmation,ip adress
 
-## Code scaffolding
+## 2
+ use the apis in my-apis service to get user ip adress and to put user geo location as adefult value for nationality input
+ * test all apis first and make prober interfaces for the data
+ * (optinal)you may use Rxjs operators to  merge the ip and geolocation apis to gether
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 3
+validate the form so that 
+* user must use English character in name input no spcial characters allowed
+* disable arabic for name input
+* nationality should be selected from countries data
+* pasword doesnt accept arabic char and min 8 char
+* pasword confirmation must  = password
+* all inputs are requierd
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 4
+* after validating the form navigate the user to welcome component 
+*user should not have acces to welcome page without signup first
+*use user name in the welcome page
+## 5
+  use any styeling you like for both bages but it must ber responsive
