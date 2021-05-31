@@ -1,0 +1,164 @@
+.jumbotron{
+    background-image:url("../../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#registerF{
+    box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    position: relative;
+    bottom: 40px;
+    padding: 2px 15px 7px 15px;
+    margin-top: 10%;
+}
+select{
+    background-color: transparent;
+    border: 1px solid #6a9185;
+    border-bottom: 1px solid #6a9185;
+    border-radius: 4px !important;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    color: #238466;
+    font-size: 15px;
+    padding-left: 10px;
+    margin: 4px 7px 15px 0;
+    font-weight: 600;
+
+}
+.text-danger{
+    font-size: 14px !important;
+    color:#cac4c4  !important;
+}
+.text-success{
+    font-size: 14px !important;
+    color:#575757  !important;
+}
+
+input:not(.browser-default){
+    background-color: transparent;
+    border: 1px solid #6a9185;
+    border-bottom: 1px solid #6a9185;
+    border-radius: 2px !important;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+  
+
+}
+
+.form-group{
+    margin: 0px 3px 25px 0;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 90%;
+    color: #dc3545;
+}
+
+.singUp{
+    text-align: center;
+    padding: 20px;
+}
+.signBtn{
+    padding: 15px 45px 15px 45px;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin-bottom: 14px;
+    background-color: #238466;
+}
+.row {
+    margin-bottom: 20px;
+}
+.singUp > div{
+    color: #238466;
+}
+.singUp > div > a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #238466 !important;
+}
+.showPass{
+    float: right;
+    position: relative;
+    bottom: 33px;
+    right: 2%;
+   
+}
+.showPass > i{
+    color: #238466;
+    font-size: 16px;
+}
+@media (min-width: 576px){
+.jumbotron {
+    padding: 1rem 2rem;
+}
+}
+@media(max-width:1024px){
+ h3{
+     font-size: 25.5px !important;
+ }   
+}
+#logo >img{
+width: 50%;
+margin-left: 25%;
+height: auto;
+}
+h3{
+    padding-top: 6%;
+    font-family: Cairo;
+    font-size: 35.5px;
+    padding-bottom: 8%;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #238466;
+}
+label{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #238466;
+    padding-bottom: 2px;
+    color: #238466;
+}
+label:after{
+    content: '*';
+    color: red;
+    margin-inline-start: 3px;
+    font-size: 15px;
+}
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+.alert-danger{
+    background-color: white;
+
+}
+
+.alert-danger h5{
+    font-size: 1em ;
+    font-size: 0.9em;
+    color: red;
+}

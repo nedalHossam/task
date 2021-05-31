@@ -1,0 +1,14 @@
+.welcome{
+    text-align: center;
+}
+.logoutBtn{
+    padding: 15px 45px 15px 45px;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin-bottom: 14px;
+    background-color: #238466;
+    color: white;
+}
+h3{
+    margin: 20%;
+}
